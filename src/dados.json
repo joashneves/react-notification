@@ -1,0 +1,59 @@
+
+
+[
+    {
+        "type": "reacted",
+        "user": "./images/avatar-mark-webber.webp",
+        "userName": "Mark Webber",
+        "time" : "1m ",
+        "content" : "My firt tournament today!",
+        "read": "false"
+    },
+    {
+        "type": "followed",
+        "user": "./images/avatar-angela-gray.webp",
+        "userName": "Angela Gray",
+        "time" : "5m ",
+        "read": "false"
+    },
+    {
+        "type" : "group",
+        "user": "./images/avatar-jacob-thompson.webp",
+        "userName": "Jacob Thompson",
+        "time" : "1day ",
+        "actividad": "has joined your group",
+        "read": "false"
+    },
+    {
+        "type" : "send",
+        "user": "./images/avatar-rizky-hasanuddin.webp",
+        "userName": "Rizky Hasanuddin",
+        "time" : "5days ",
+        "read": "true"
+    },
+    {
+        "type" : "commented",
+        "user": "./images/avatar-kimberly-smith.webp",
+        "userName": "Kimberly Smith",
+        "time" : "1week ",
+        "contentImage" : "./images/image-chess.webp",
+        "read": "true"
+    },
+    {
+        "type": "reacted",
+        "user": "./images/avatar-nathan-peterson.webp",
+        "userName": "Nathan Peterson",
+        "time" : "2weeks ",
+        "content":  " end-game strategies to increase your win rate",
+        "read": "true"
+    },
+    {
+        "type": "group",
+        "user": "./images/avatar-anna-kim.webp",
+        "userName": "Anna Kim",
+        "time" : "2weeks ",
+        "actividad": "left the grupo",
+        "read": "true"
+    }
+    
+]

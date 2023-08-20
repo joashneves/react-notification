@@ -1,0 +1,153 @@
+/* Definindo variáveis */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Very-light-grayish-blue: hsl(210, 60%, 98%);
+  --Light-grayish-blue-1: hsl(211, 68%, 94%);
+  --Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --Grayish-blue: hsl(219, 14%, 63%);
+  --Dark-grayish-blue: hsl(219, 12%, 42%);
+  --Very-dark-blue: hsl(224, 21%, 14%);
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+
+  --tamanho-fonte: 1rem;
+}
+
+body{
+  background-color: var(--White);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.top-bar-notification{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0px 1rem 0px 1rem;
+  
+}
+.notification-count {
+  color: #fff;
+  align-items: center;
+  justify-content:flex-start;
+  padding: 9px 16px 9px 16px;
+  border-radius: 1rem;
+  background-color: var(--Blue);
+
+}
+.top-bar-notification button{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  align-self: center;
+  margin: 6px;
+}
+.box-notification{
+  display: flex;
+  border-radius: 12px;
+  margin: 0 1rem 1rem 1rem;
+}
+.notification-content{
+  margin: 12px;
+}
+.time{
+  margin: 6px 0 0 0;
+}
+.false{
+  background-color: var( --Light-grayish-blue-2);
+}
+.false .link:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--Red);
+  border-radius: 50%; 
+  margin-left: 5px; 
+}
+.true{
+  background-color: var(--Very-light-grayish-blue);
+}
+.user-icon{
+  margin: 12px 2px 0 6px;
+  width: 48px;
+  height: 48px;
+}
+.user{
+  color: #000;
+  text-decoration:solid;
+  font-weight: bold; 
+}
+.message 
+{
+  padding: 12px;
+  background-color: var( --Light-grayish-blue-2);
+  border-radius: 6px;
+
+}.message:hover{
+  cursor: pointer;
+  padding: 12px;
+  background-color: var( --Light-grayish-blue-2);
+  border-radius: 6px;
+}
+.image-contente
+{
+  margin: 12px 0 0 0;
+  width: 64px;
+  height: 64px;
+}
+.user:hover
+{
+  color: var(--Blue);
+  cursor: pointer;
+}
+.link
+{
+  color: var(--Blue);
+  text-decoration:solid;
+  font-weight: bold; 
+}
+.link:hover
+{
+  color: var(--Blue);
+  cursor: pointer;
+  text-decoration:solid;
+  font-weight: bold; 
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution link { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 768px) {
+  body{
+    background-color: var( --Light-grayish-blue-2);
+  }
+  .box{
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 3rem;
+  }
+  .box-notification{
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  .image-contente{
+    display: flex;
+    align-self: flex-end;  
+    justify-content: right;
+  }
+  .image-contente:hover{
+    cursor: pointer;
+  }
+}
